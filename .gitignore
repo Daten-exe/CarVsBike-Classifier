@@ -1,0 +1,13 @@
+# Ignorer le dossier de données (images)
+data/
+
+# Ignorer les checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorer les modèles sauvegardés (s'ils sont trop lourds)
+*.h5
+*.keras
+
+# Ignorer les dossiers virtuels Python
+venv/
+__pycache__/
